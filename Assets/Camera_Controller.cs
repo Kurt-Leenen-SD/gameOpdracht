@@ -15,11 +15,11 @@ public class Camera_Controller : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.E))
         {
-            gameObject.transform.rotation = Quaternion.Euler(0, gameObject.transform.rotation.eulerAngles.y - .3f, 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, gameObject.transform.rotation.eulerAngles.y - .4f, 0);
         }
         if (Input.GetKey(KeyCode.Q))
         {
-            gameObject.transform.rotation = Quaternion.Euler(0, gameObject.transform.rotation.eulerAngles.y + .3f, 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, gameObject.transform.rotation.eulerAngles.y + .4f, 0);
         }
     }
 }
